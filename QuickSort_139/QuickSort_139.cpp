@@ -114,7 +114,11 @@ void display() {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    q_short(0, n - 1);      //Sort the array using quick sort
+    display();
+    system("pause");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
