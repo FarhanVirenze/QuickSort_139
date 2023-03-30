@@ -32,7 +32,11 @@ void input(){
     }
 }
 
+// swaps the element st index x with the element at index y
+void swap(int x, int y)
+{
 
+}
 int main()
 {
     std::cout << "Hello World!\n";
