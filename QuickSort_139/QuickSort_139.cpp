@@ -83,7 +83,19 @@ void q_short(int low, int high)
             mov_count++;
         }
     }
-    // 
+    // j now contain the index of the last element in the sorted list
+    if (low < j)                                        //Langkah Algoritma No. 11
+    {
+        //move the pivot to its correct position in the list
+        swap(low, j);
+        mov_count++;
+    }
+    //sort the list on the left of pivot using quick sort
+    q_short(low, j - 1);                                //Langkah Algoritma No. 12
+
+    //sort the list on the right of pivot using quick sort
+    q_short(j + 1, high);                               //Langkah Algoritma No. 13
+
 }
 int main()
 {
