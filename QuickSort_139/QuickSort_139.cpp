@@ -44,7 +44,15 @@ void swap(int x, int y)
 
 void q_short(int low, int high)
 {
+    int pivot, i, j;
+    if (low > high)                      //Langkah Algoritma No. 1
+        return;
 
+    //Partition the list into two parts
+    //one containing elements less that or equal to pivot
+    //Other containing elements greather than pivot
+
+    
 }
 int main()
 {
