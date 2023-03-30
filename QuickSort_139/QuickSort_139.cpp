@@ -108,7 +108,10 @@ void display() {
         cout << arr[i] << " ";
     }
 
+    cout << "\n\nNumber of comparation: " << cmp_count << endl;
+    cout << "Number of data movements: " << mov_count << endl;
 }
+
 int main()
 {
     std::cout << "Hello World!\n";
